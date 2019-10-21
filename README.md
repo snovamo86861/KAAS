@@ -12,7 +12,7 @@ Keron Edwards<br>
 
 2. Donald Trump has redefined the American Presidency in many ways including his use of social media. Extracting and interrogating his archive of Tweets we sought to investigate the effect he has had communicating via this medium on both the financial markets and on political discourse in general.
 
-<img src="Images/wordcloud2.png">
+<img src="Images/WordCloud2.png">
 
     
 ### Questions
@@ -30,6 +30,7 @@ We found that several key Tweets had the effect of moving the S&P 500. Two notew
 2. Analysis of lauguage used by Trump in his Tweets with a detailed analysis of Trump tweets including top words, sentiment distribution and vartion in sentiment accross subsets of Tweets filetered for key terms. 
 
 Results are as follows:
+
 <img src="Images/newplot (11).png">
 <img src="Images/newplot (12).png">
 <img src="Images/newplot (13).png">

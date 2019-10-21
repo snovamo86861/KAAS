@@ -19,7 +19,6 @@ Keron Edwards<br>
 #### Impact of @realDonaldTrump language on::
 1) Trade war with China. This has been the main causal factor of recent market volatility. Using time series data we sought to understand the connection between key Trump Tweets and market movements.
 
-:
 
 <img src="Images/newplot (10).png">
 We found that several key Tweets had the effect of moving the S&P 500. Two noteworthy examples are as follows.
@@ -27,9 +26,7 @@ We found that several key Tweets had the effect of moving the S&P 500. Two notew
 
 <img src="Images/tarrif_man.png">
 
-2. Analysis of lauguage used by Trump in his Tweets with a detailed analysis of Trump tweets including top words, sentiment distribution and vartion in sentiment accross subsets of Tweets filetered for key terms. 
-
-Results are as follows:
+2. Analysis of lauguage used by Trump in his Tweets with a detailed analysis of Trump tweets including top words, sentiment distribution and vartion in sentiment accross subsets of Tweets filetered for key terms. Results are as follows:
 
 <img src="Images/newplot (11).png">
 <img src="Images/newplot (12).png">

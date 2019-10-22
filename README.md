@@ -24,11 +24,11 @@
 We found that several key Tweets had the effect of moving the S&P 500. Two noteworthy examples are as follows.<br>
 <img src="Images/tarrif_man.png"><br>
 This Tweet contributed to a percentage Change in SPY on 2018/12/04 of -3.24% .<br>
-<img src="Images/newplot (21).png"><br>
+<img src="Images/newplot (22).png"><br>
 <br>
 <img src="Images/mexico.png"><br>
 This Tweet contributed to a percentage Change in SPY on 2018/12/04 of +1.0007% .<br>
-<img src="Images/newplot (22).png"><br>
+<img src="Images/newplot (21).png"><br>
 <br>
 <br>
 2. Analysis of lauguage used by Trump in his Tweets with a detailed analysis of Trump tweets including top words, sentiment distribution and vartion in sentiment accross subsets of Tweets filetered for key terms. Results are as follows:<br>

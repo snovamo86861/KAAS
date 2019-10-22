@@ -2,32 +2,36 @@
 
 ### Team Members
 
-Ash Ranu<br>
-Aresh Bakau Wint<br>
-Sandra Nova<br>
-Keron Edwards<br>
+* Ash 
+* Aresh 
+* Sandra 
+* Keron 
 
 ### Motivation 
 1. Core message: Trump’s impact on the financial markets and political environment in America
 
 2. Donald Trump has redefined the American Presidency in many ways including his use of social media. Extracting and interrogating his archive of Tweets we sought to investigate the effect he has had communicating via this medium on both the financial markets and on political discourse in general.
 
-<img src="Images/WordCloud2.png">
+<img src="Images/wordcloud2.png">
 
     
 ### Questions
-#### Impact of @realDonaldTrump language on::
+#### Impact of @realDonaldTrump language on:
 1) Trade war with China. This has been the main causal factor of recent market volatility. Using time series data we sought to understand the connection between key Trump Tweets and market movements.
 
 
 <img src="Images/newplot (10).png">
-We found that several key Tweets had the effect of moving the S&P 500. Two noteworthy examples are as follows.
-<img src="Images/china.png">
-
-<img src="Images/tarrif_man.png">
-
-2. Analysis of lauguage used by Trump in his Tweets with a detailed analysis of Trump tweets including top words, sentiment distribution and vartion in sentiment accross subsets of Tweets filetered for key terms. Results are as follows:
-
+We found that several key Tweets had the effect of moving the S&P 500. Two noteworthy examples are as follows.<br>
+<img src="Images/tarrif_man.png"><br>
+This Tweet contributed to a percentage Change in SPY on 2018/12/04 of -3.24% .<br>
+<img src="Images/newplot (21).png"><br>
+<br>
+<img src="Images/mexico.png"><br>
+This Tweet contributed to a percentage Change in SPY on 2018/12/04 of +1.0007% .<br>
+<img src="Images/newplot (22).png"><br>
+<br>
+<br>
+2. Analysis of lauguage used by Trump in his Tweets with a detailed analysis of Trump tweets including top words, sentiment distribution and vartion in sentiment accross subsets of Tweets filetered for key terms. Results are as follows:<br>
 <img src="Images/newplot (11).png">
 <img src="Images/newplot (12).png">
 <img src="Images/newplot (13).png">
@@ -37,26 +41,36 @@ We found that several key Tweets had the effect of moving the S&P 500. Two notew
 <img src="Images/newplot (17).png">
 <img src="Images/newplot (18).png">
 
-3. Scattertext polt to look at the differences in langauge between Trump and Obama. This will allow us to better understand the varaitions in words used and the context in which they are used.
+3. Scattertext 
+* Scattertext is a tool for locating distinguishing terms in differnt documents and presenting them in an interactive scatter plot.The Scattertext polt allows us to explore the differences in langauge used by Trump and Obama on Twitter. 
+* For this analysis we used Trump tweets from the start of 2016 to present and Obama's Tweets from 2012 to 2017. Obama's Tweets were obtained from https://community.periscopedata.com/t/x1fy7p/barack-obamas-tweet-history. Whilst from sigthly different time periods as both sets of Tweets cover the periods of each presidents tenure in the role of the President and as such serve as a good point of comparison. 
+* Each point on the scatterplot is a word or phrase mentioned by Trump or Obama on their respective Twitter accounts. The closer a point is to the top of the plot, the more frequently it was used by Obama. The further to the right a point is the more that word or phrase was used by Trump. Words frequently used by both presidents, are placed in the upper-right-hand corner. 
+* Words that are used infrequently are placed in the bottom-left-hand corner.Terms are colored by their association. Those that are more associated with Obama are blue, and those more associated with Trump are red.
+* Terms (single words) that are most characteristic of the both sets of documents are displayed on the far-right corner.
 
 <img src="Images/newplot (19).png">
 
+* For example one of Obama's most freqenntly used words which was seldom used by Trump was "climate". Clicking on this term in the plot brings up a side by side comparison of the tweets where the word "climate" was used. As per the screenshot below Obama mentioned "climate" 321 times to Trump's six. One of those six mentions by Trump was to annouce that America was pulling out of the Paris Climate Agreement, a document to which >190 countries are signatories. 
+
+<img src="Images/newplot (20).png">
 
 ### Data Sources
-* Tweets - Twitter API and Tweepy Python Library. We set up a Twitter developer account and pip installed Tweepy. Twitter has 3 tiers of developer account each with different levels of access. The free tier only allows for a maximum of 3200 tweets to be downloaded. Following an initial exploration of Tweepy and the Twitter API and hitting a roadblock we explored other options. There is a site which has the complete catalogue of Trump tweets which allows you to filter by date range and download to CSV. http://www.trumptwitterarchive.com/archive
-* We also utilised another python library called Twitterscraper. This allows you to scrape Tweets using a Python to retrieve content and Beautifullsoup to parse the retrieved content into a JSON object or CSV. * We used this to pull tweets for the keyword WeWork as well as from Elon Musk’s Twitter profile. 
-* We also used market data from IEX finance and WeWork bond price data from CapIQ.	
+* Tweets - Twitter API and Tweepy Python Library. We set up a Twitter developer account and pip installed Tweepy. Twitter has 3 tiers of developer account each with different levels of access. The free tier only allows for a maximum of 3200 tweets to be downloaded. Following an initial exploration of Tweepy and the Twitter API and hitting a roadblock we explored other options. We found a site which has the complete catalogue of Trump tweets which allows you to filter by date range and download to CSV. http://www.trumptwitterarchive.com/archive
+* For Obama's Tweets we also relied on an archive downloaded from https://community.periscopedata.com/t/x1fy7p/barack-obamas-tweet-history 
+* In addition we utilized another python library called Twitterscraper which we ran via the command line. Twitterscraper allows you to scrape Tweets using a Python to retrieve content and Beautifullsoup to parse the retrieved content into a JSON object or CSV. We used this to pull tweets for the keyword WeWork as well as from Elon Musk’s Twitter profile. 
+* To extract market data we used IEX Finance and for the WeWork Bond Price data we utilized CapIQ.
+
 
 ### Data Cleanup
-We have put the rough working into 4 notebooks, 1 for each of the analysis types we did including the wordcloud
+We have put the rough working into 4 notebooks, 1 for each of the analysis types we did including the WordCloud:<br>
 1. [Wordcloud](wordcloudv1.2.ipynb)
 2. [Trump Tweet Analysis](Trump_Analysis_v1.0.ipynb)
 3. [Tweet and Price Movement Analysis](test_code_v2.5.ipynb)
 4. [Scatter Text](scatter_textv1.ipynb) - Note this can take up to 5 miuntes to open
 
-### [There is also a notebook for the presenation using the RISE library in Jupyter Notebook.](PRES_V1.0.ipynb)
+### [There is also a notebook for cleaned up code and the notebook presenation using the RISE library for Jupyter Notebook.](PRES_V1.0.ipynb)
 
 ## Implications 
 
-Trump has forever changed political discourse. His language is unique introducing a new phrases into the lexicon.  His exorating style beings a level of vitriol not previously witnesses as can be seen in the sentiment analysis. His utilisation of social media to make presidential announcements/proclamation reverberates
+Trump has forever changed political discourse. His language is unique, introducing a new phrases into the lexicon.  Futhermore his exorating style beings a level of vitriol not previously witnessesed. Trump's use of social media is unprescentated for any world leader, let alone for the POTUS. 
 

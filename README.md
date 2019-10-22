@@ -12,7 +12,7 @@
 
 2. Donald Trump has redefined the American Presidency in many ways including his use of social media. Extracting and interrogating his archive of Tweets we sought to investigate the effect he has had communicating via this medium on both the financial markets and on political discourse in general.
 
-<img src="Images/wordcloud2.png">
+<img src="Images/WordCloud2.png">
 
     
 ### Questions

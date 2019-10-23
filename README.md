@@ -69,7 +69,7 @@ We have put the rough working into 4 notebooks, 1 for each of the analysis types
 3. [Tweet and Price Movement Analysis](test_code_v2.5.ipynb)
 4. [Scatter Text](scatter_textv1.ipynb) - Note this can take up to 5 miuntes to open
 
-### [There is also a notebook for cleaned up code and the notebook presenation using the RISE library for Jupyter Notebook.](PRES_V1.0.ipynb)
+### [There is also a notebook (PRES_V1.0.ipynb) with cleaned up code which we used to do the slide presenatation using the RISE Python library for Jupyter Notebook.](PRES_V1.0.ipynb)
 
 ## Implications 
 

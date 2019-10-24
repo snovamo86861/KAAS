@@ -1,0 +1,11 @@
+pandas
+numpy
+matplotlib
+iexfinance
+plotly==4.1.0
+tweepy
+plotly-express
+panel
+scattertext
+spacy
+wordcloud

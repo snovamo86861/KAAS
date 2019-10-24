@@ -10,3 +10,7 @@ scattertext
 spacy
 wordcloud
 rise
+tabulate
+scipy
+scikit-learn
+image

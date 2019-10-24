@@ -15,3 +15,4 @@ scipy
 scikit-learn
 image
 chart_studio
+vaderSentiment

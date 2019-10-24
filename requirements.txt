@@ -9,3 +9,4 @@ panel
 scattertext
 spacy
 wordcloud
+rise
